@@ -18,29 +18,18 @@ body{
 	justify-content: space-between;
 }
 
-.secao-v{
-	background-color: #ccc;
-	color: #222;
-	border: 4px solid #222;
-	border-radius: 5px;
-	max-width: 1200px;
-	height: 600px;
-	margin: 20px auto;
-	position: relative;
-}
-
 .header-people{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-color: #777;
-	border-radius: 5px;
+	border-radius: 10px 10px 0px 0px;
 	border: 4px solid #222;
-	width: 700px;
+	max-width: 800px;
 	min-height: 300px;
 	margin: auto;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	border-bottom: none;
 	padding: 1em;
 }
 
@@ -55,7 +44,8 @@ body{
 }
 
 .pfp{
-	width: 200px;
+	min-width: 200px;
+	image-rendering: pixelated;
 	height: 200px;
 	background-color: #CC2D2D;
 	border-radius: 50%;
@@ -66,6 +56,7 @@ body{
 .name{
 	margin-bottom: .5em;
 	font-size: 1.8em;
+	color: #222;
 }
 
 .desc{
@@ -93,4 +84,45 @@ body{
 
 .header-people .language-img{
 	width: 50px;
+}
+
+.secao-v{
+	background-color: #ccc;
+	color: #222;
+	border: 4px solid #222;
+	border-radius: 0px 0px 10px 10px;
+	max-width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.body-people{
+	padding: 10px;
+	margin-left: 1.5em;
+}
+
+.body-people h2, li{
+	margin-bottom: .5em;
+}
+
+.body-people li{
+	font-size: 1.1em;
+}
+
+.pos{
+	max-width: 800px;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.pos-content{
+	display: flex;
+	align-items: center;
+}
+
+#vick{
+	margin: auto;
+	image-rendering: pixelated;
+	width: 200px;
 }
