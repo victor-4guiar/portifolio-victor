@@ -14,8 +14,52 @@ body{
 	background-color: #222;
 	padding: 10px;
 	display: flex;
+	position: fixed;
+	min-height: 80px;
+	width: 100%;
+	top: 0;
+	max-width: 100vw;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.header h1{
+	font-size: 1.8em;
+}
+
+.logo{
+	margin-left: 1em;
+}
+
+.logo a{
+	color: #ccc;
+	text-decoration: none;
+}
+
+.logo a:hover{
+	cursor: pointer;
+}
+
+.navbar{
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+.navbar a{
+	color: #ccc;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 300ms;
+	margin: 0 1em;
+	font-weight: bold;
+}
+
+.navbar a:hover{
+	color: #CC2D2D;
+}
+
+main{
+	margin-top: 7em;
 }
 
 .header-people{
@@ -113,7 +157,7 @@ body{
 	max-width: 800px;
 	margin: auto;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 .pos-content{
@@ -125,4 +169,39 @@ body{
 	margin: auto;
 	image-rendering: pixelated;
 	width: 200px;
+}
+
+footer{
+	background-color: #222;
+	display: flex; 
+	padding: 10px;
+	color: #ccc;
+}
+
+footer p{
+	margin: auto;
+}
+
+footer a{
+	color: #ccc;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+@media (max-width: 700px){
+	.header{
+		flex-direction: column;
+		padding: 20px;
+	}
+	
+	.header nav{
+		margin-top: 20px;
+	}
+	
+	main{
+		margin-top: 9em;
+	}
 }
