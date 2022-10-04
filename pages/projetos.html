@@ -6,9 +6,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<link rel="stylesheet" href="projetos.css">
 		<link rel="stylesheet" href="../header-footer.css">
+		<script defer src="projetos.js"></script>
 		<title>Projetos</title>
 	</head>
-	<body>
+	<body onload="criar()">
 		<header class="header">
 			<div class="logo">
 				<h1><a href="../index.html" rel="prev" target="_self">Portifólio</a></h1>
@@ -20,9 +21,12 @@
 			</nav>
 		</header>
 		<main>
+			<section class="proj-header">
+				<h1>Lista dos Projetos</h1>
+			</section>
 			<section class="proj-body">
-				<h1>Atenção!</h1>
-				<p>Esta página está em manutenção.</p>
+				<div id="projects-container" class="projects-container">
+				</div>
 			</section>
 		</main>
 		<footer> <!-- Rodapé -->
