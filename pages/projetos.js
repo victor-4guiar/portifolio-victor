@@ -1,8 +1,8 @@
 function criar(){
 	projetos = {
-		nomes: ["Em breve", "Em breve", "Em breve"],
-		caminhos: ["#", "#", "#"],
-		thumbs: ["../images/beta.png", "../images/beta.png", "../images/beta.png"]
+		nomes: ["JavaScript Tests", "Em breve", "Em breve"],
+		caminhos: ["https://github.com/victor-4guiar/JavaScript-Tests", "#", "#"],
+		thumbs: ["../images/thumbs/javascript-tests.png", "../images/thumbs/beta.png", "../images/thumbs/beta.png"]
 	}
 	
 	for(let c=0; c<projetos.nomes.length;c++){
