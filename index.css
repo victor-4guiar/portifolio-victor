@@ -126,3 +126,28 @@ main{
 	image-rendering: pixelated;
 	width: 200px;
 }
+
+@media (max-width: 800px){
+	.secao-v, .header-people{
+		border-left: none;
+		border-right: none;
+		border-radius: 0px 0px 0px 0px;
+		width: 100%;
+		max-width: 100vw;
+	}
+}
+
+@media (max-width: 600px){
+	.main-content-peo{
+		flex-direction: column;
+	}
+	
+	.name{
+		text-align: center;
+		margin: 20px 0px 20px -20px;
+	}
+	
+	.pfp{
+		width: 180px;
+	}
+}

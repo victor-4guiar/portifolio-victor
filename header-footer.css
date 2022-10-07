@@ -90,3 +90,9 @@ footer a:hover{
 		margin-top: 9em;
 	}
 }
+
+@media (max-width: 600px){
+	.navbar a{
+		margin: 5px;
+	}
+}
