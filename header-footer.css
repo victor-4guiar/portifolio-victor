@@ -58,6 +58,7 @@ footer{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	min-height: 30px;
 	display: flex; 
 	padding: 10px;
 	color: #ccc;
@@ -88,6 +89,11 @@ footer a:hover{
 	
 	main{
 		margin-top: 9em;
+	}
+	
+	footer{
+		min-height: 40px;
+		padding: 10px;
 	}
 }
 
