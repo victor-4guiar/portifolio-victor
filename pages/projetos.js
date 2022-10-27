@@ -1,8 +1,22 @@
 function criar(){
 	projetos = {
-		nomes: ["JavaScript Tests", "Discord Profile", "JavaScript Clock"],
-		caminhos: ["https://victor-4guiar.github.io/JavaScript-Tests/", "https://victor-4guiar.github.io/Discord-Profile/", "https://victor-4guiar.github.io/clock/"],
-		thumbs: ["../images/thumbs/javascript-tests.png", "../images/thumbs/discord-profile.png", "../images/thumbs/clock.png"]
+		nomes: [
+		"JavaScript Tests", 
+		"Discord Profile", 
+		"JavaScript Clock", 
+		"Twitter Profile"],
+		
+		caminhos: [
+		"https://victor-4guiar.github.io/JavaScript-Tests/", 
+		"https://victor-4guiar.github.io/Discord-Profile/", 
+		"https://victor-4guiar.github.io/clock/", 
+		"https://victor-4guiar.github.io/Twitter-Profile/"],
+		
+		thumbs: [
+		"../images/thumbs/javascript-tests.png", 
+		"../images/thumbs/discord-profile.png", 
+		"../images/thumbs/clock.png", 
+		"../images/thumbs/twitter.png"]
 	}
 	
 	for(let c=0; c<projetos.nomes.length;c++){
