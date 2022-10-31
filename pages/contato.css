@@ -25,6 +25,7 @@ main{
 .cont-main{
 	max-width: 700px;
 	margin: auto;
+	position: relative;
 }
 
 .cont-header{
@@ -57,6 +58,63 @@ main{
 
 .cont-body li{
 	margin: 5px;
+}
+
+.cont-body{
+	display: flex;
+	flex-direction: column;
+}
+
+.list-container{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.link-container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container-list{
+	display: flex;
+	flex-direction: row;
+}
+
+.link-header{
+	display: flex;
+	margin-left: 1em;
+	margin-right: 1em;
+	flex-direction: column;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	transition: 300ms;
+	background-color: #222;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.link-header:hover{
+	background-color: #333;
+}
+
+.link-header img{
+	width: 100%;
+	margin-top: .6em;
+}
+
+.return{
+	border: 4px solid #222;
+	border-radius: 5px;
+	min-height: 2em;
+	margin-top: 2em;
+}
+
+.textli{
+	text-align: center;
+	margin-top: .2em;
 }
 
 @media (max-width: 700px){
