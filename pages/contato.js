@@ -1,10 +1,9 @@
-window.alert('Aviso! Esta página está em ajustes.');
-
 let likist = { //Dados gerais dos elementos.
 	nomes: ['Rozavick#7866', 'victor-4guiar', 'victoraguiarrosa397@gmail.com'],
-	atalhos: ['../images/discord.png', '../images/discord.png','../images/discord.png'],
+	atalhos: ['../images/discord.png', '../images/github.png','../images/gmail.png'],
 	mouse: ['discord', 'github', 'gmail'],
-	alt: ['Discord', 'GitHub', 'Gmail']
+	alt: ['Discord', 'GitHub', 'Gmail'],
+	pos: ['normal', 'edit', 'normal']
 }
 
 function apresentar(valor){ //Verificação de qual valor de contato a exibir.
@@ -45,10 +44,13 @@ function org(){ //Organizar os elementos.
 		links.innerHTML = `
 			<div class="link">
 				<div class="link-header" onclick="copy('${likist.nomes[c]}')" onmouseover="apresentar('${likist.mouse[c]}')" onmouseout="revert()">
-					<img src="${likist.atalhos[c]}" alt="${likist.alt[c]}">
+					<img id="el${c}" src="${likist.atalhos[c]}" alt="${likist.alt[c]}">
 				</div>
 			</div>
 		`;
 		document.getElementById('container-list').appendChild(links);
+		if(likist.pos[c] != 'normal'){
+			document.getElementById(`el${c}`).style.marginTop = '0px';
+		}
 	}
 }
