@@ -139,3 +139,14 @@ main{
 		border-bottom: 4px solid #222;
 	}
 }
+
+@media (max-width: 360px){
+	.container-list{
+		display: block;
+		flex-direction: column;
+	}
+	
+	.container-list .link-header{
+		margin-bottom: 1em;
+	}
+}
