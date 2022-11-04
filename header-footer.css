@@ -132,6 +132,7 @@
 @media (max-width: 360px){
 	.footer-alt{
 		position: relative;
-		padding-bottom: 10px;
+		min-height: 40px;
+		padding: 10px;
 	}
 }
