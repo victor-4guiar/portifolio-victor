@@ -125,7 +125,7 @@ main{
 #vick{
 	margin: auto;
 	image-rendering: pixelated;
-	width: 200px;
+	width: 110px;
 }
 
 @media (max-width: 800px){
