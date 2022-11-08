@@ -96,7 +96,7 @@ main{
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 470px){
 	.projects-container{
 		grid-template-columns: 200px;
 	}
