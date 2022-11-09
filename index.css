@@ -120,6 +120,7 @@ main{
 .pos-content{
 	display: flex;
 	align-items: center;
+	margin-bottom: 3.5em;
 }
 
 #vick{

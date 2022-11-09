@@ -53,22 +53,15 @@
 	padding-bottom: 5px;
 }
 
+.footer-container{
+	display: block;
+	width: 100vw;
+}
+
 .footer{
 	display: flex; 
 	background-color: #222;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	min-height: 30px;
-	padding: 10px;
-	color: #ccc;
-}
-
-.footer-alt{
-	display: flex; 
-	background-color: #222;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -87,19 +80,6 @@
 }
 
 .footer a:hover{
-	text-decoration: underline;
-}
-
-.footer-alt p{
-	margin: auto;
-}
-
-.footer-alt a{
-	color: #ccc;
-	text-decoration: none;
-}
-
-.footer-alt a:hover{
 	text-decoration: underline;
 }
 
@@ -126,13 +106,5 @@
 @media (max-width: 600px){
 	.navbar a{
 		margin: 5px;
-	}
-}
-
-@media (max-width: 420px){
-	.footer-alt{
-		position: relative;
-		min-height: 40px;
-		padding: 10px;
 	}
 }
