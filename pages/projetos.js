@@ -4,19 +4,22 @@ function criar(){
 		"JavaScript Tests", 
 		"Discord Profile", 
 		"JavaScript Clock", 
-		"Twitter Profile"],
+		"Twitter Profile",
+		"Pokéquiz"],
 		
 		caminhos: [
 		"https://victor-4guiar.github.io/JavaScript-Tests/", 
 		"https://victor-4guiar.github.io/Discord-Profile/", 
 		"https://victor-4guiar.github.io/clock/", 
-		"https://victor-4guiar.github.io/Twitter-Profile/"],
+		"https://victor-4guiar.github.io/Twitter-Profile/",
+		"https://victor-4guiar.github.io/pokequiz/"],
 		
 		thumbs: [
 		"../images/thumbs/javascript-tests.png", 
 		"../images/thumbs/discord-profile.png", 
 		"../images/thumbs/clock.png", 
-		"../images/thumbs/twitter.png"]
+		"../images/thumbs/twitter.png",
+		"../images/thumbs/pokequiz.png"]
 	}
 	
 	for(let c=0; c<projetos.nomes.length;c++){
