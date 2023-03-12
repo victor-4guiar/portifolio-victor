@@ -1,7 +1,7 @@
 <h1>Olá, amig@!</h1>
 <p>Primeiramente, é um prazer te ver aqui! Aqui contarei sobre o portfólio.</p>
 <h2>Como está sendo feito</h2>
-<p>Estou usando 3 grandes tecnologias fundamentas para o web desenvolvimento; <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Estou tentando implementar tudo que eu sei ou que sou capaz de fazer neste portfólio, mas possívelmente eu posso acabar refazendo em React, para ser mais flexsível atualizar e ser mais atrativo para muitos que queiram contratar.</p>
+<p>Estou usando 3 grandes tecnologias fundamentais para o web desenvolvimento; <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Estou tentando implementar tudo que eu sei ou que sou capaz de fazer neste portfólio, mas possívelmente eu posso acabar refazendo em React, para ser mais flexsível atualizar e ser mais atrativo para muitos que queiram contratar.</p>
 <h2>Progamas que usei e estou usando</h2>
 <ul>
 	<li>Notepad++</li>
