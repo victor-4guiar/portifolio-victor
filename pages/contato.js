@@ -1,5 +1,5 @@
 let likist = { //Dados gerais dos elementos.
-	nomes: ['Rozavick#7866', 'victor-4guiar', 'victoraguiarrosa397@gmail.com'],
+	nomes: ['Rozavick#7866', 'victor-front', 'victoraguiarrosa397@gmail.com'],
 	atalhos: ['../images/discord.png', '../images/github.png','../images/gmail.png'],
 	mouse: ['discord', 'github', 'gmail'],
 	alt: ['Discord', 'GitHub', 'Gmail'],
