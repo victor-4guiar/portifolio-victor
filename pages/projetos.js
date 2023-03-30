@@ -1,7 +1,7 @@
 function criar(){
 	projetos = {
 		nomes: [
-		"JavaScript Tests", 
+		"Sign Up", 
 		"Discord Profile", 
 		"JavaScript Clock", 
 		"Twitter Profile",
@@ -9,7 +9,7 @@ function criar(){
 		"Calculadora"],
 		
 		caminhos: [
-		"https://victor-front.github.io/JavaScript-Tests/", 
+		"https://victor-front.github.io/signup/", 
 		"https://victor-front.github.io/Discord-Profile/", 
 		"https://victor-front.github.io/clock/", 
 		"https://victor-front.github.io/Twitter-Profile/",
@@ -17,7 +17,7 @@ function criar(){
 		"https://victor-front.github.io/calculadora/"],
 		
 		thumbs: [
-		"../images/thumbs/javascript-tests.png", 
+		"../images/thumbs/signup.png", 
 		"../images/thumbs/discord-profile.png", 
 		"../images/thumbs/clock.png", 
 		"../images/thumbs/twitter.png",
