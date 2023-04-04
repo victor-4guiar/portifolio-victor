@@ -79,7 +79,7 @@ main{
 }
 
 .centralizador{
-	min-width: 215px;
+	min-width: 180px;
 	margin: auto;
 }
 
@@ -107,6 +107,27 @@ main{
 
 .body-people li{
 	font-size: 1.1em;
+}
+
+.projects{
+	padding: 20px;
+	margin-top: -25px;
+}
+
+.projects h2, .projects p{
+	margin-bottom: 15px;
+}
+
+.projects p{
+	font-size: 1.1em;
+}
+
+.projects a{
+	color: #222;
+}
+
+.projects h2{
+	margin-left: 15px;
 }
 
 .pos{
