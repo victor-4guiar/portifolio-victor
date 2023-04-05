@@ -3,7 +3,7 @@ function criar(){
 		nomes: [
 		"Sign Up", 
 		"Discord Profile", 
-		"ClockJS(em reforma)", 
+		"ClockJS", 
 		"Twitter Profile",
 		"Pokéquiz",
 		"Calculadora"],
