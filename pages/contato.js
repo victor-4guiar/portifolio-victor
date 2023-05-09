@@ -1,9 +1,9 @@
 let likist = { //Dados gerais dos elementos.
-	nomes: ['Rozavick#7866', 'victor-front', 'victoraguiarrosa397@gmail.com'],
-	atalhos: ['../images/discord.png', '../images/github.png','../images/gmail.png'],
-	mouse: ['discord', 'github', 'gmail'],
-	alt: ['Discord', 'GitHub', 'Gmail'],
-	pos: ['normal', 'edit', 'normal']
+	nomes: ['Rozavick#7866', 'victor-front', 'victoraguiarrosa397@gmail.com', 'victoriekjkj@gmail.com'],
+	atalhos: ['../images/discord.png', '../images/github.png','../images/gmail.png', '../images/pix.png'],
+	mouse: ['discord', 'github', 'gmail', 'pix'],
+	alt: ['Discord', 'GitHub', 'Gmail', 'Pix'],
+	pos: ['normal', 'edit', 'normal', 'normal']
 }
 
 function apresentar(valor){ //Verificação de qual valor de contato a exibir.
@@ -13,6 +13,8 @@ function apresentar(valor){ //Verificação de qual valor de contato a exibir.
 		document.getElementById('msg').innerHTML = `<p class="textli">${likist.nomes[1]}</p>`;
 	}else if(valor == likist.mouse[2]){
 		document.getElementById('msg').innerHTML = `<p class="textli">${likist.nomes[2]}</p>`;
+	}else if(valor == likist.mouse[3]){
+		document.getElementById('msg').innerHTML = `<p class="textli">${likist.nomes[3]}</p>`;
 	}
 }
 
