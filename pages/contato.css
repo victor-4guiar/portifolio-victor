@@ -130,7 +130,9 @@ main{
 }
 
 #el3{
-	margin-top: 4px;
+	width: 90px;
+	margin-top: -12px;
+	margin-left: 1px;
 }
 
 @media (max-width: 700px){
